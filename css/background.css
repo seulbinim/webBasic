@@ -1,0 +1,10 @@
+body {
+  background-color: gold;
+}
+
+.container {
+  width: 1000px;
+  height: 400px;
+  background-color: pink;
+  background-image: url();
+}
