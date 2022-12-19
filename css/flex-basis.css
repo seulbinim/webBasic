@@ -9,9 +9,9 @@ body {
 .container {
   border: 5px solid red;
   background-color: silver;
-  display: flex;
-  flex-flow: row nowrap;
   width: 1010px;
+  display: flex;
+  flex-direction: row;
 }
 
 [class*="group"] {
@@ -20,13 +20,14 @@ body {
 
 .group1 {
   background-color: gold;
-  flex: 1 1 500px;
+  flex: 0 1 100px;
 }
 .group2 {
   background-color: aqua;
-  flex: 1 2 1200px;
+  flex: 0 1 100px;
 }
 .group3 {
   background-color: lightgreen;
-  flex: 1 1 300px;
+  flex: 0 1 100px;
+  order: -1;
 }
